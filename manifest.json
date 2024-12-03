@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Redirecionador de URL",
+    "version": "1.0",
+    "description": "Substitui o id_empresa na URL e redireciona para o Google.",
+    "permissions": ["tabs", "clipboardRead", "activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    }
+  }
+  

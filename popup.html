@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <input type="text" id="empresaId" placeholder="Código da empresa" class="input-field">
+    <div class="button-group">
+      <button id="pasteClipboard" class="btn btn-gray">Colar do Clipboard</button>
+      <button id="redirecionar" class="btn">Redirecionar</button>
+    </div>
+    
+    <select id="pageOption" class="select-field">
+      <option value="" disabled selected>Selecione uma página</option>
+      <option value="funcionarios">Funcionários</option>
+      <option value="administrar">Administrar Empresa</option>
+      <option value="afastamento">Afastamento</option>
+    </select>
+    
+    <button id="goToPage" class="btn btn-go">Ir</button>
+    <div class="version">v.0.1</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
